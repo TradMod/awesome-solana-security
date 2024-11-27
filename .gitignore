@@ -1,7 +1,0 @@
-demo/.anchor
-demo/.DS_Store
-demo/target
-demo/**/*.rs.bk
-demo/node_modules
-demo/test-ledger
-demo/.yarn
