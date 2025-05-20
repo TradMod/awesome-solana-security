@@ -41,6 +41,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Rektoff's Security roadmap](https://github.com/Rektoff/Security-Roadmap-for-Solana-applications)
 - [Helius's blog](https://www.helius.dev/blog): Frequently publishes Solana-related content
 - [Pine Analytics's Substack](https://substack.com/@pineanalytics1): Focuses on deep diving into features of Solana protocols
+- [Infect3d's Essentials for Starting Solana Auditing](https://www.infect3d.xyz/blog/solana-quick-start)
 - Solana's general common vulnerabilities:
   - [Urataps's program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
   - [Helius's common vulnerabilities](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) 
@@ -48,7 +49,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
   - [Slowmist's Solana best practices](https://github.com/slowmist/solana-smart-contract-security-best-practices)
   - [Exvul's Solana security guide](https://exvul.com/rust-smart-contract-security-guide-in-solana/)
   - [Zigtur's Solana security walkthrough](https://www.youtube.com/watch?v=xd6qfY-GDYY)
-  - [Mario's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
+  - [M4rio's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
 
 - Token-2022 Security resources:
   - Offside's Token-2022 best practices [Part 1](https://blog.offside.io/p/token-2022-security-best-practices-part-1) and [Part 2](https://blog.offside.io/p/token-2022-security-best-practices-part-2)
