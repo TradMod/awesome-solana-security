@@ -39,12 +39,23 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 
 - [Solana's official security course](https://solana.com/developers/courses/program-security)
 - [Rektoff's Security roadmap](https://github.com/Rektoff/Security-Roadmap-for-Solana-applications)
-- [Program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
+
+- [Helius's blog](https://www.helius.dev/blog): Frequently publishes Solana-related content
+- [Pine Analytics's Substack](https://substack.com/@pineanalytics1): Focus on deepdiving into features of Solana protocols
+- Solana's general common vulnerabilities:
+  - [Urataps's program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
+  - [Helius's common vulnerabilities](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) 
+  - [ImmuneBytes's common Solana attack vectors](https://github.com/ImmuneBytes-Security-Audit/Blockchain-Attack-Vectors/tree/main/Solana%20Attack%20Vectors)
+  - [Slowmist's Solana best practice](https://github.com/slowmist/solana-smart-contract-security-best-practices)
+  - [Exvul's Solana security guide](https://exvul.com/rust-smart-contract-security-guide-in-solana/)
+  - [Zigtur's Solana security walkthrough](https://www.youtube.com/watch?v=xd6qfY-GDYY)
+  - [Mario's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
+
 - Token-2022 Security resources:
   - Offside's Token-2022 best practices [Part 1](https://blog.offside.io/p/token-2022-security-best-practices-part-1) and [Part 2](https://blog.offside.io/p/token-2022-security-best-practices-part-2)
   - [Neodyme's Token-2022 security](https://neodyme.io/en/blog/token-2022)
-- [Helius's blog](https://www.helius.dev/blog): Frequently publishes Solana-related content
 
+- [Asymetric research's CPI vulnerabilities](https://blog.asymmetric.re/invocation-security-navigating-vulnerabilities-in-solana-cpis/)
 
 ### Codebases to Study
 **Essential:**
@@ -54,11 +65,12 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Solana token-2022 program](https://github.com/solana-program/token-2022)
 - [Solana ATA (associated token account) program](https://github.com/solana-program/associated-token-account)
 - [Solana token metadata program](https://github.com/solana-program/token-metadata)
+- [Metaplex's token metada program](https://github.com/metaplex-foundation/mpl-token-metadata)
 
 **Optional:**
-- [Raydium](https://github.com/raydium-io/raydium-cp-swap): AMM protocol
-- [Kamino](https://github.com/Kamino-Finance/klend): Lending protocol
-- [Squads](https://github.com/Squads-Protocol/v4): Multisig protocol
+- [Raydium program](https://github.com/raydium-io/raydium-cp-swap): AMM protocol
+- [Kamino program](https://github.com/Kamino-Finance/klend): Lending protocol
+- [Squads program](https://github.com/Squads-Protocol/v4): Multisig protocol
 
 ### Places to Ask Questions
 - [Solana Stack Exchange](https://solana.stackexchange.com/) 
@@ -66,8 +78,8 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 ### Tools
 - [Solana playground](https://beta.solpg.io/) 
 - [Rust playground](https://play.rust-lang.org/)
-
-
+- [Sec3's IDL Guesser](https://github.com/sec3-service/IDLGuesser): Reverse engineering IDL from onchain program for easier integration
+- [Trail of Bits's Anchor Xray](https://github.com/crytic/anchorx-ray): Visualize accounts in Anchor program
 ### CTFs
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
 
