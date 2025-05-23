@@ -36,12 +36,13 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Anchor SPL wiki](https://docs.rs/anchor-spl)
 
 ### General Resources
-
 - [Solana's official security course](https://solana.com/developers/courses/program-security)
 - [Rektoff's Security roadmap](https://github.com/Rektoff/Security-Roadmap-for-Solana-applications)
 - [Helius's blog](https://www.helius.dev/blog): Frequently publishes Solana-related content
 - [Pine Analytics's Substack](https://substack.com/@pineanalytics1): Focuses on deep diving into features of Solana protocols
 - [Infect3d's Essentials for Starting Solana Auditing](https://www.infect3d.xyz/blog/solana-quick-start)
+- [Lucrative_Panda's highly detailed Research article that covers all of Solana's security incidents](https://medium.com/@lucrativepanda/a-comprehensive-analysis-of-solanas-security-history-all-incidents-impacts-and-evolution-up-to-1b1564c7ddfe)
+
 - Solana's general common vulnerabilities:
   - [Urataps's program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
   - [Helius's common vulnerabilities](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) 
