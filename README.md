@@ -2,19 +2,14 @@
 
 Resources to help you build better and more secure Solana programs. Kept up to date.
 
-### Development Resources
-
-- [RareSkills' Solana course](https://www.rareskills.io/solana-tutorial): Best resource for Ethereum developers transitioning to Solana
-- [Ackee's Solana handbook](https://ackee.xyz/solana/book/latest/)
-
 ### Official Resources
 
 - [Solana docs](https://solana.com/docs/) 
-- [Solana courses](https://solana.com/developers/courses)
+- [Solana courses](https://github.com/solana-foundation/solana-com/tree/de9f7239e1fe6c65b929332ab8c52d38a94b372c/content/courses)
 - [Solana cookbook](https://solana.com/developers/cookbook) 
-- [Solana examples with multiple frameworks supported](https://github.com/solana-developers/program-examples)
+- [Solana examples supporting multiple frameworks](https://github.com/solana-developers/program-examples)
 - [Solana bootcamp 2024](https://github.com/solana-developers/developer-bootcamp-2024)
-- [SPL (Solana Program Library) docs](https://spl.solana.com/): SPL is an official collection of programs to build your own Solana program with
+- [SPL (Solana Program Library) docs](https://spl.solana.com/): SPL is an official collection of programs to help you build your own Solana program.
 
 ### Rust
 If you need a primer on Rust, these resources are for you:
@@ -35,13 +30,23 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Anchor wiki](https://docs.rs/anchor-lang)
 - [Anchor SPL wiki](https://docs.rs/anchor-spl)
 
+### Solana Resources for EVM transitioners
+- [RareSkills' Solana course for Ethereum developers](https://www.rareskills.io/solana-tutorial)
+- [0xkowloon's Anchor for EVM developers](https://0xkowloon.gitbook.io/anchor-for-evm-developers)
+
 ### General Resources
-- [Solana's official security course](https://solana.com/developers/courses/program-security)
+- [Ackee's Solana handbook](https://ackee.xyz/solana/book/latest/)
+- [Blueshift's Anchor and Pinocchio courses and challenges](https://learn.blueshift.gg/)
 - [Rektoff's Security roadmap](https://github.com/Rektoff/Security-Roadmap-for-Solana-applications)
 - [Helius's blog](https://www.helius.dev/blog): Frequently publishes Solana-related content
 - [Pine Analytics's Substack](https://substack.com/@pineanalytics1): Focuses on deep diving into features of Solana protocols
 - [Infect3d's Essentials for Starting Solana Auditing](https://www.infect3d.xyz/blog/solana-quick-start)
-- [Lucrative_Panda's highly detailed Research article that covers all of Solana's security incidents](https://medium.com/@lucrativepanda/a-comprehensive-analysis-of-solanas-security-history-all-incidents-impacts-and-evolution-up-to-1b1564c7ddfe)
+- [Lucrative_Panda's highly detailed research article that covers all of Solana's security incidents](https://medium.com/@lucrativepanda/a-comprehensive-analysis-of-solanas-security-history-all-incidents-impacts-and-evolution-up-to-1b1564c7ddfe)
+- [Solana security course](https://github.com/solana-foundation/solana-com/tree/de9f7239e1fe6c65b929332ab8c52d38a94b372c/content/courses/program-security)
+- [r0bre's 100 Daily Solana Tips](https://accretionxyz.substack.com/p/r0bres-100-daily-solana-tips)
+- [Accretion's Hidden IDL Instructions and How to Abuse Them](https://accretionxyz.substack.com/p/hidden-idl-instructions-and-how-to)
+- [Farouk ELALEM's explanation of how Solana programs work under the hood](https://ubermensch.blog/under-the-hood-of-solana-program-execution-from-rust-code-to-sbf-bytecode)
+- [Ottersec's lamport transfers vulnerabilities](https://osec.io/blog/2025-05-14-king-of-the-sol)
 
 - Solana's general common vulnerabilities:
   - [Urataps's program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
@@ -51,7 +56,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
   - [Exvul's Solana security guide](https://exvul.com/rust-smart-contract-security-guide-in-solana/)
   - [Zigtur's Solana security walkthrough](https://www.youtube.com/watch?v=xd6qfY-GDYY)
   - [M4rio's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
-
+  - [Nirlin's advanced Solana vulnerabilities](https://substack.com/inbox/post/164534668)
 - Token-2022 Security resources:
   - Offside's Token-2022 best practices [Part 1](https://blog.offside.io/p/token-2022-security-best-practices-part-1) and [Part 2](https://blog.offside.io/p/token-2022-security-best-practices-part-2)
   - [Neodyme's Token-2022 security](https://neodyme.io/en/blog/token-2022)
@@ -81,6 +86,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Rust playground](https://play.rust-lang.org/)
 - [Sec3's IDL Guesser](https://github.com/sec3-service/IDLGuesser): Reverse engineers IDL from onchain programs for easier integration
 - [Trail of Bits's Anchor X-ray](https://github.com/crytic/anchorx-ray): Visualizes accounts in Anchor programs
+- [John Saigle's Anchor version detector](https://github.com/johnsaigle/anchor-version-detector): Helps figure out which versions of Rust, Solana, and Anchor are compatible with a given Anchor project.
 
 ### CTFs
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
@@ -92,10 +98,18 @@ Solana security audits that are publicly available:
 - [WOOFi on Sherlock](https://audits.sherlock.xyz/contests/535/report): 2 High and 3 Medium 
 - [Pump Science on Code4rena](https://code4rena.com/reports/2025-01-pump-science): 2 High and 3 Medium
 
-**NOTE: You may need to log into Cantina to access these reports**
+**NOTE: Contact `0xmorph` in the Cantina Discord server to gain read access if you don't have it.**
 - [Grass on Cantina](https://cantina.xyz/competitions/3211ee0d-133f-43a0-837e-8dc1ecfaa424): 13 High and 6 Medium
 - [Olas on Cantina](https://cantina.xyz/competitions/829164bf-7fba-4b84-a6b8-76652205bd97): 2 High and 3 Medium
 - [Tensor on Cantina](https://cantina.xyz/competitions/21787352-de2c-4a77-af09-cc0a250d1f04): 5 High and 10 Medium
 - [ZetaChain on Cantina](https://cantina.xyz/competitions/80a33cf0-ad69-4163-a269-d27756aacb5e): 6 High and 27 Medium (both Solidity and Solana are in-scope)
 - [Inclusive Finance on Cantina](https://cantina.xyz/competitions/3eff5a8f-b73a-4cfe-8c54-546b475548f0): 45 High and 25 Medium (both Solidity and Solana are in-scope)
 - [Reserve Index on Cantina](https://cantina.xyz/code/8b94becd-54e7-41cd-88e6-caae7becc76a): 10 High and 11 Medium
+
+<!-- 
+
+Pinocchio section:
+  
+
+ -->
+
