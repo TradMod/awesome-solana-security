@@ -5,7 +5,7 @@ Resources to help you build better and more secure Solana programs. Kept up to d
 ### Official Resources
 
 - [Solana docs](https://solana.com/docs/) 
-- [Solana courses](https://github.com/solana-foundation/solana-com/tree/de9f7239e1fe6c65b929332ab8c52d38a94b372c/content/courses)
+- [Solana courses](https://solana.com/developers/courses/)
 - [Solana cookbook](https://solana.com/developers/cookbook) 
 - [Solana examples supporting multiple frameworks](https://github.com/solana-developers/program-examples)
 - [Solana bootcamp 2024](https://github.com/solana-developers/developer-bootcamp-2024)
@@ -42,7 +42,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Pine Analytics's Substack](https://substack.com/@pineanalytics1): Focuses on deep diving into features of Solana protocols
 - [Infect3d's Essentials for Starting Solana Auditing](https://www.infect3d.xyz/blog/solana-quick-start)
 - [Lucrative_Panda's highly detailed research article that covers all of Solana's security incidents](https://medium.com/@lucrativepanda/a-comprehensive-analysis-of-solanas-security-history-all-incidents-impacts-and-evolution-up-to-1b1564c7ddfe)
-- [Solana security course](https://github.com/solana-foundation/solana-com/tree/de9f7239e1fe6c65b929332ab8c52d38a94b372c/content/courses/program-security)
+- [Solana security course](https://solana.com/developers/courses/program-security)
 - [r0bre's 100 Daily Solana Tips](https://accretionxyz.substack.com/p/r0bres-100-daily-solana-tips)
 - [Accretion's Hidden IDL Instructions and How to Abuse Them](https://accretionxyz.substack.com/p/hidden-idl-instructions-and-how-to)
 - [Farouk ELALEM's explanation of how Solana programs work under the hood](https://ubermensch.blog/under-the-hood-of-solana-program-execution-from-rust-code-to-sbf-bytecode)
