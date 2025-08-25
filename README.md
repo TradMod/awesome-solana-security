@@ -91,6 +91,10 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 ### CTFs
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
 
+### Bug Bounty Reports
+- [Raydium - Tick Manipulation Bugfix Review]([https://medium.com/immunefi/port-finance-logic-error-bugfix-review-29767aced446](https://medium.com/immunefi/raydium-tick-manipulation-bugfix-review-c6aae4527ed6))
+- [Port Finance - Business Logic Error Bugfix Review](https://medium.com/immunefi/port-finance-logic-error-bugfix-review-29767aced446)
+
 ### Audit Contests
 Solana security audits that are publicly available:
 
